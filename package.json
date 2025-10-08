@@ -1,0 +1,33 @@
+{
+  "name": "twp-mobile-appium-tests",
+  "version": "1.0.0",
+  "description": "TWP Mobile automated tests using Appium and Robot Framework",
+  "main": "index.js",
+  "scripts": {
+    "start-appium": "appium",
+    "test": "robot -d logs tests/",
+    "test-buttons": "robot -d logs tests/buttons.robot",
+    "test-short": "robot -d logs -i short tests/",
+    "test-long": "robot -d logs -i long tests/"
+  },
+  "keywords": [
+    "appium",
+    "robot-framework",
+    "mobile-testing",
+    "android",
+    "automation"
+  ],
+  "author": "EricaOkuda-br",
+  "license": "MIT",
+  "dependencies": {
+    "appium": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EricaOkuda-br/twpMobile---Appium-Robot.git"
+  }
+}

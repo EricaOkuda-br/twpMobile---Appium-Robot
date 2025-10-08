@@ -1,0 +1,54 @@
+# TWP Mobile - Appium Robot Framework Tests
+# .gitignore file
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Robot Framework logs and reports
+logs/
+*.xml
+*.html
+output.xml
+log.html
+report.html
+appium-screenshot-*.png
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+coverage/
+
+# Appium logs
+appium.log
+
+# Misc
+*.log
+*.tmp
